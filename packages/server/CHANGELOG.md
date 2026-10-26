@@ -1,5 +1,12 @@
 # @modelcontextprotocol/server
 
+## 2.4.1
+
+### Patch Changes
+
+- Updated dependencies []:
+    - @modelcontextprotocol/core@2.4.1
+
 ## 2.4.0
 
 ### Minor Changes

@@ -1,5 +1,14 @@
 # @modelcontextprotocol/client
 
+## 2.4.1
+
+### Patch Changes
+
+- [#2877](https://github.com/modelcontextprotocol/typescript-sdk/pull/2877) [`b415e60`](https://github.com/modelcontextprotocol/typescript-sdk/commit/b415e60bdf0e8dd5d6cbe7e6353abfb982b06dd2) Thanks [@dasjideepak](https://github.com/dasjideepak)! - Add `OAuthClientProvider.skipOfflineAccessConsentPrompt` (and the matching `startAuthorization()` option) so a client can omit the `prompt=consent` the SDK adds when the requested scope includes `offline_access`. Default behavior is unchanged. This unblocks authorization servers such as Microsoft Entra ID tenants that have user consent disabled and admin consent granted, where a forced consent prompt fails with `AADSTS90095` for non-admin users.
+
+- Updated dependencies []:
+    - @modelcontextprotocol/core@2.4.1
+
 ## 2.4.0
 
 ### Minor Changes
